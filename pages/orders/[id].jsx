@@ -25,10 +25,10 @@ const Order = () => {
                 <span className={styles.id}>129837819237</span>
               </td>
               <td>
-                <span className={styles.name}>John Doe</span>
+                <span className={styles.name}>Derick Makhubela</span>
               </td>
               <td>
-                <span className={styles.address}>Elton st. 212-33 LA</span>
+                <span className={styles.address}>Elton st. 212-33 Arcadia</span>
               </td>
               <td>
                 <span className={styles.total}>$79.80</span>
@@ -51,7 +51,7 @@ const Order = () => {
             </div>
           </div>
           <div className={statusClass(1)}>
-            <Image src="/img/bake.png" width={30} height={30} alt="" />
+            <Image src="/img/bake.jpg" width={30} height={30} alt="" />
             <span>Preparing</span>
             <div className={styles.checkedIcon}>
               <Image

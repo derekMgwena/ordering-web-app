@@ -18,7 +18,7 @@ const Cart = () => {
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/pizza.png"
+                  src="/img/pizza.jpg"
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -30,24 +30,24 @@ const Cart = () => {
             </td>
             <td>
               <span className={styles.extras}>
-                Double ingredient, spicy sauce
+                Double ingredient, cocoa powder
               </span>
             </td>
             <td>
-              <span className={styles.price}>$19.90</span>
+              <span className={styles.price}>$3.90</span>
             </td>
             <td>
               <span className={styles.quantity}>2</span>
             </td>
             <td>
-              <span className={styles.total}>$39.80</span>
+              <span className={styles.total}>$2.50</span>
             </td>
           </tr>
           <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/pizza.png"
+                  src="/img/pizza.jpg"
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -59,17 +59,17 @@ const Cart = () => {
             </td>
             <td>
               <span className={styles.extras}>
-                Double ingredient, spicy sauce
+                Double ingredient, cocoa powder
               </span>
             </td>
             <td>
-              <span className={styles.price}>$19.90</span>
+              <span className={styles.price}>$3.90</span>
             </td>
             <td>
               <span className={styles.quantity}>2</span>
             </td>
             <td>
-              <span className={styles.total}>$39.80</span>
+              <span className={styles.total}>$2.50</span>
             </td>
           </tr>
         </table>
@@ -78,13 +78,13 @@ const Cart = () => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>$79.60
+            <b className={styles.totalTextTitle}>Subtotal:</b>$6.40
           </div>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Discount:</b>$0.00
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>$79.60
+            <b className={styles.totalTextTitle}>Total:</b>$6.40
           </div>
           <button className={styles.button}>CHECKOUT NOW!</button>
         </div>

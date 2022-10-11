@@ -6,10 +6,10 @@ const Product = () => {
   const [size, setSize] = useState(0);
   const pizza = {
     id: 1,
-    img: "/img/pizza.png",
-    name: "CAMPAGNOLA",
-    price: [19.9, 23.9, 27.9],
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus, rhoncus fringilla vestibulum vel, dignissim vel ante. Nulla facilisi. Nullam a urna sit amet tellus pellentesque egestas in in ante.",
+    img: "/img/pizza.jpg",
+    name: "MOCHA LATTE",
+    price: [3.9, 2.9, 2.5],
+    desc: "A coffee of latte with addition of chocolate, The flavors of the coffee and chocolate meld almost seamlessly. You can get thta chocolate flavor by adding either cocoa powder or a chocolate syrup",
   };
 
   return (
@@ -26,15 +26,15 @@ const Product = () => {
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => setSize(0)}>
-            <Image src="/img/size.png" layout="fill" alt="" />
+            <Image src="/img/size.jpg" layout="fill" alt="" />
             <span className={styles.number}>Small</span>
           </div>
           <div className={styles.size} onClick={() => setSize(1)}>
-            <Image src="/img/size.png" layout="fill" alt="" />
+            <Image src="/img/size.jpg" layout="fill" alt="" />
             <span className={styles.number}>Medium</span>
           </div>
           <div className={styles.size} onClick={() => setSize(2)}>
-            <Image src="/img/size.png" layout="fill" alt="" />
+            <Image src="/img/size.jpg" layout="fill" alt="" />
             <span className={styles.number}>Large</span>
           </div>
         </div>
@@ -53,28 +53,28 @@ const Product = () => {
             <input
               className={styles.checkbox}
               type="checkbox"
-              id="cheese"
-              name="cheese"
+              id="cinnamon"
+              name="cinnamon"
             />
-            <label htmlFor="cheese">Extra Cheese</label>
+            <label htmlFor="cinnamon">Extra Cinnamon</label>
           </div>
           <div className={styles.option}>
             <input
               className={styles.checkbox}
               type="checkbox"
-              id="spicy"
-              name="spicy"
+              id="chocolate syrup"
+              name="chocolate syrup"
             />
-            <label htmlFor="spicy">Spicy Sauce</label>
+            <label htmlFor="chocolate syrup">Chocolate Syrup </label>
           </div>
           <div className={styles.option}>
             <input
               className={styles.checkbox}
               type="checkbox"
-              id="garlic"
-              name="garlic"
+              id="cocoa powder"
+              name="cocoa powder"
             />
-            <label htmlFor="garlic">Garlic Sauce</label>
+            <label htmlFor="cocoa">Cocoa Powder</label>
           </div>
         </div>
         <div className={styles.add}>
