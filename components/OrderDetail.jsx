@@ -26,7 +26,7 @@ const OrderDetail = ({ total, createOrder }) => {
           <label className={styles.label}>Phone Number</label>
           <input
             type="text"
-            placeholder="+1 234 567 89"
+            placeholder="+27 234 567 89"
             className={styles.input}
           />
         </div>
@@ -34,7 +34,7 @@ const OrderDetail = ({ total, createOrder }) => {
           <label className={styles.label}>Address</label>
           <textarea
             rows={5}
-            placeholder="Elton St. 505 NY"
+            placeholder="Elton St. 505 NW"
             type="text"
             className={styles.textarea}
             onChange={(e) => setAddress(e.target.value)}
