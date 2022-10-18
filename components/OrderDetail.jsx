@@ -49,3 +49,4 @@ const OrderDetail = ({ total, createOrder }) => {
 };
 
 export default OrderDetail;
+

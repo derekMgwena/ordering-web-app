@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from "../styles/PizzaCard.module.css";
+import Link from "next/link";
 
-const PizzaCard = () => {
+
+const PizzaCard = ({ pizza }) => {
   return (
     <div className={styles.container}>
-      <Image src="/img/pizza.jpg" alt="" width="500" height="500" />
+
+  <Image src="/img/pizza.jpg" alt="" width="500" height="500" />
+      
       <h1 className={styles.title}>Caffe Americano</h1>
       <span className={styles.price}>$3.90</span>
       <p className={styles.desc}>
@@ -15,3 +19,5 @@ const PizzaCard = () => {
 };
 
 export default PizzaCard;
+
+
